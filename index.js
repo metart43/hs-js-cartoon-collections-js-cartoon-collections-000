@@ -19,6 +19,7 @@ function longPlaneteerCalls(words) {
     }
   }
 
+<<<<<<< HEAD
   function findTheCheese(foods) {
   var isCheese = foods.find(function(element){
         if (element === 'gouda' || element === 'cheddar' || element === 'camembert'){
@@ -30,4 +31,7 @@ if (isCheese !== undefined){
 } else {
   return "no cheese!"
 }
+=======
+function findTheCheese(foods) {
+>>>>>>> a92372f585f92b864e8f0a315ea03085cdc325d6
 }
